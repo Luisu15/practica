@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+  }
+  #p_header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+    color: white;
+}
+    #p_header:hover {
+        color: yellowgreen;
+    }
+    
+    #p_header .p_nombre {
+        display: block;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    
+    #p_header .p_descrip {
+        display: block;
+        font-weight: 300;
+        font-size: 0.8em;
+        color: #999;
+    }
+    p {
+        margin: 0 0 1.5em 0;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+nav {
+    float: right;
+    color:white; 
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+    color: white;
+}
+    
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+            
+nav ul li a:hover {
+ background: #48465d;
+ color: aquamarine; 
+                }
+     
+
+                #conteinerh{
+                    background: rgb(17, 17, 17);
+                    color: yellow;
+                    height: 80px;	
+                    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+                    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+                    top: 0; /* Posicionamos la cabecera pegada arriba */
+                    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+                
+                }
+  article {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    justify-content: center;  
+    margin-top: 50px;
+  }
+  
+  body {
+    background: linear-gradient(90deg, #5c5a5c 0%,rgb(84, 19, 100)50%, #5c5a5c 100%);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+  }
+  
+  h1,
+  h2 {
+    color: #264653;
+    margin: 10px 10px 20px 10px;
+    padding: 15px;
+  }
+  
+  article{
+
+    width: 800px;
+    height: 800px;
+    margin-top: 80px;
+    display: inline-block;
+    position:sticky;
+  }
+
+  
